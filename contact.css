@@ -1,0 +1,90 @@
+.containers {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #136795;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    margin-top: 70px;
+    justify-content: center;
+   
+   
+
+}
+
+.form-section, .info-section {
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.form-section {
+    background: #ffffff;
+}
+
+.info-section {
+     background: #136795;
+    border-radius: 100px 0 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-section h3 {
+    margin-bottom: 20px;
+}
+
+.info-section div {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.info-section div i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.info-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-section h3 {
+    margin-bottom: 15px;
+}
+
+.form-section input, .form-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-section button {
+    background: #fbb03b;
+
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.form-section button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .info-section {
+        text-align: center;
+    }
+}
